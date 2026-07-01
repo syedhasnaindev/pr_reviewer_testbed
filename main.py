@@ -42,4 +42,3 @@ def cube_root(a) :
         return -(-a) ** (1/3)
     return a ** (1/3)
 
-def c
