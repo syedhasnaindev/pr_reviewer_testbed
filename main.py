@@ -29,3 +29,9 @@ def floor_divide(a,b) :
     if b == 0:
         raise ValueError("Cannot perform floor division by zero.")
     return a // b
+
+
+def square_root(a) :
+    if a < 0:
+        raise ValueError("Cannot compute square root of a negative number.")
+    return a ** 0.5
