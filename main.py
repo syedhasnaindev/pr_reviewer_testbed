@@ -23,3 +23,9 @@ def modulus(a,b) :
     if b == 0:
         raise ValueError("Cannot perform modulus by zero.")
     return a % b
+
+
+def floor_divide(a,b) :
+    if b == 0:
+        raise ValueError("Cannot perform floor division by zero.")
+    return a // b
