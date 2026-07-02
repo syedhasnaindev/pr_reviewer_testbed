@@ -51,3 +51,9 @@ def factorial(n) :
     for i in range(2, n + 1):
         result *= i
     return result
+
+
+def permutation(n, r) :
+    if n < 0 or r < 0 or r > n:
+        raise ValueError("Invalid values for n and r in permutation.")
+    return factorial(n) // factorial(n - r)
